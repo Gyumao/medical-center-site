@@ -1,0 +1,33 @@
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) 
+{
+    .left, .main, .right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+*
+{
+    padding: 0;
+    margin: 0;  
+}
+
+header
+{
+    background-color: #2980B9;
+}
+
+.rouge
+{
+   color: #E74C3C;
+}
+
+.blanc
+{
+    color: #ECF0F1;
+}
+
+.bleu
+{
+    color: #2C3E50;
+}
