@@ -1,20 +1,70 @@
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) 
-{
-    .left, .main, .right {
-      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
-
 *
 {
     padding: 0;
     margin: 0;  
 }
 
+/*============================HERDER============================*/
+
 header
 {
-    background-color: #2980B9;
+    background: url('Images/banner1.jpg') no-repeat;background-size: 100% 350px;border-bottom: 5px solid black; height: 300px;
+}
+
+header h1
+{
+    text-align: center;padding-top: 140px; text-shadow: 2px 2px black;
+}
+
+header nav
+{
+    float: right; margin-top: 95px; text-align: center;
+}
+
+header nav ul li
+{
+        border: solid 1px  white; background-color: black;
+        font-weight: bold;
+        padding: 0 5rem 0 5rem;
+        display: inline-block;
+        font-size: 1.2em;
+        
+        
+}
+header a
+{
+    color: white; font-siz;
+}
+/*==============================MAIN==============================*/
+
+main
+{
+    background: url('Images/4DC472B08.jpg') no-repeat;background-size: 100% 500px;
+}
+
+/*=============================FOOTER============================*/
+
+footer
+{
+    height: 200px; background-color: #444;
+}
+
+footer ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li
+{
+        display: inline-block;
+        padding-right: 10em;
+}
+
+
+.logo
+{
+    float: left; padding: 3rem 0 0 4rem;
 }
 
 .rouge
@@ -29,5 +79,5 @@ header
 
 .bleu
 {
-    color: #2C3E50;
+    color: rgb(2, 47, 245);
 }
