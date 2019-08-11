@@ -1,7 +1,12 @@
+/*==========================GENERAL===============================*/
 *
 {
     padding: 0;
     margin: 0;  
+}
+
+li{
+    list-style: none;
 }
 
 /*============================HERDER============================*/
@@ -13,54 +18,65 @@ header
 
 header h1
 {
-    text-align: center;padding-top: 140px; text-shadow: 2px 2px black;
+    text-align: center;padding-top: 150px; text-shadow: 2px 2px black;
 }
 
 header nav
 {
-    float: right; margin-top: 95px; text-align: center;
+    float: right; margin-top: 85px; text-align: center; background-color: black; border: 2px solid white;
 }
 
 header nav ul li
 {
-        border: solid 1px  white; background-color: black;
+        border: solid 1px  whit; background-color: black;
         font-weight: bold;
         padding: 0 5rem 0 5rem;
         display: inline-block;
-        font-size: 1.2em;
-        
-        
+            
 }
+
 header a
 {
-    color: white; font-siz;
+    color: white; font-size: 20px;
 }
 /*==============================MAIN==============================*/
 
 main
 {
-    background: url('Images/4DC472B08.jpg') no-repeat;background-size: 100% 500px;
+    background: url('Images/4DC472B08.jpg') no-repeat;background-size: 100% auto; height: 700px;
 }
 
 /*=============================FOOTER============================*/
 
 footer
 {
-    height: 200px; background-color: #444;
+    height: 220px; background-color: rgb(49, 49, 49);border-top: 5px solid black;
 }
 
-footer ul
+footer h1
 {
-    list-style: none;
-    padding-left: 0;
+    text-align: center;margin: 30px 100px 0 0; text-shadow: 2px 2px black;
 }
 
-footer ul li
+footer nav
 {
+    float: right; text-align: center; margin-top: 115px;background-color: black; border: 2px solid white;
+}
+
+footer nav ul li
+{
+        border: solid 1px  whit; background-color: black;
+        font-weight: bold;
+        padding: 0 4rem 0 4rem;
         display: inline-block;
-        padding-right: 10em;
 }
 
+footer a
+{
+    color: white; font-size: 20px;
+}
+
+/*===========================CLASS==============================*/
 
 .logo
 {
@@ -79,5 +95,13 @@ footer ul li
 
 .bleu
 {
-    color: rgb(2, 47, 245);
+    color: rgb(0, 39, 211);
 }
+
+.image-footer
+{
+    border: 2px solid black; float: left; margin: 10px 0 0 20px;
+}
+
+/*============================PAGE-MEDECIN======================*/
+
