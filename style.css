@@ -54,8 +54,13 @@ main
 {
     background: url('Images/fond.jpg') no-repeat;
     background-size: 100% auto; 
+     
 }
-
+ table
+ {
+     background-color: rgba(35,35,35,.2);
+     text-align: center;
+ }
 /*=============================FOOTER============================*/
 
 footer
