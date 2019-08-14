@@ -38,24 +38,31 @@
 </header>
 <!--________________________________________________MAIN_________________________________________-->
     <main>
-        <section>
-            <h2> CONTACTEZ-NOUS </h2>
+        <div>
+        <section class="info-contact">
+            <h2 class="h2-contact"> CONTACTEZ-NOUS </h2>
             <h3> Téléphone = (+33)3 10 20 30 40 </h3>
             <h3> Mobile    = (+33)6 10 20 30 40 </h3>
+        </section>
+        <section>
             <form class="contact">
-                <div>
-                    <p>Votre Nom</p>
-                    <input type="text" name="name" class="name" placeholder=" votre Nom" value size='40' ></div> <br>
-                <div>
-                    <p>Votre Email</p>
-                    <input type="email" name="email" class="email" placeholder="votre Email" value size="40" ></div> <br>
-                <div><p>Votre Sujet</p> 
-                    <input type="text" name="sujet" class="sujet" placeholder="votre Sujet" value size="40" ></div> <br>
-                <div>
-                    <p> Ecrire votre message</p>
-                    <textarea name="message" class="message" placeholder=" Votre Message" cols="30" rows="10"></textarea>
-                </div>
-                <div>
+                <div class="center">
+                    <p>Votre Nom</p></div>
+                <div class="center">
+                    <input type="text" name="name" placeholder=" votre Nom" value size='40' ></div> <br>
+                <div class="center">
+                    <p>Votre Email</p></div>
+                <div class="center">
+                    <input type="email" name="email" placeholder="votre Email" value size="40" ></div> <br>
+                <div class="center">
+                    <p>Votre Sujet</p> </div>
+                <div class="center">
+                    <input type="text" name="sujet" placeholder="votre Sujet" value size="40"></div> <br>
+                <div class="center">
+                    <p>Ecrire votre message</p></div>
+                <div class="center">
+                    <textarea name="message" placeholder=" Votre Message" cols="30" rows="10"></textarea></div>
+                <div class="center">
                     <input type="submit" class="button" value="Envoyer">
                 </div>
             </form>
@@ -64,6 +71,7 @@
                      allowfullscreen></iframe>
             </div>
         </section>
+        </div>
     </main>
 <!--_______________________________________________FOOTER________________________________________-->
     <footer>
