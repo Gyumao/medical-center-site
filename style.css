@@ -80,6 +80,25 @@ main
     width: 100%;height:500px;
 }
 
+.wrapper
+{
+    margin: 0 auto;
+}
+
+/*===============================MAIN-SPECIALISTES========================*/
+
+.medecin
+{
+    display: flex;
+    justify-content: center;
+}
+
+.marg
+{
+    margin: 50px 0 20px 0;
+    font-size: 2.5rem;
+}
+
 /*===============================MAIN-HORAIRES============================*/
 
  table
@@ -131,6 +150,7 @@ th,td
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 
 .h2-contact
@@ -186,6 +206,7 @@ form input
     width: 800px;
     background-color: black;
     text-shadow: 1px 1px rgb(100, 0, 0);
+    margin: 0 auto;
 }
 
 /*==================================FOOTER=================================*/
