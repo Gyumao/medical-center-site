@@ -100,7 +100,9 @@ main
 
 .main-image
 {
-    width: 100%;height:500px;
+    width: 100%;
+    height:500px;
+    border-bottom: 5px solid rgb(192, 192, 192);
 }
 
 .h2-accueil
@@ -117,7 +119,7 @@ main
     justify-content: center;
     font-weight: bold;
     margin: 50px 0;
-    text-shadow: 1px 1px rgb(192, 192, 192);
+    text-shadow: 1px 1px black;
     text-align: center;
 }
 
@@ -166,7 +168,7 @@ main
     font-weight: bold;
     text-align:center;
     margin-bottom: 50px;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgb(0,0,0);
 }
 
 /*===============================MAIN-HORAIRES============================*/
@@ -195,7 +197,7 @@ main
     justify-content: center;
     font-weight: bold;
     margin: 50px 0;
-    text-shadow: 1px 1px silver;
+    text-shadow: 1px 1px black;
     text-align: center;
 }
 
@@ -263,7 +265,7 @@ form input
 .map
 {
     width: 100%; height: 450px;
-    border: 3px solid silver;
+    border: 3px solid rgb(192, 192, 192);
 }
 
 /*================================MAIN-URGENCES===========================*/
@@ -285,18 +287,30 @@ form input
 {
     display: flex;
     justify-content: center;
-    margin: 50px 0 50px 0;
+    margin: 50px 0;
 }
 
-.h2-honoraires
+.h2-propos
 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
     text-decoration: underline black;
 }
+
+.p-propos
+{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 50px 0;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
 /*==================================FOOTER=================================*/
 
 footer
