@@ -16,7 +16,7 @@ li{
 
 table
  {
-     background-color: rgba(228, 227, 227, 0.4);
+     background-color: rgba(228, 228, 228, 0.4);
      text-align: center;
      width: 900px;
      height: 400px;
@@ -117,11 +117,11 @@ main
     justify-content: center;
     font-weight: bold;
     margin: 50px 0;
-    text-shadow: 1px 1px silver;
+    text-shadow: 1px 1px rgb(192, 192, 192);
     text-align: center;
 }
 
-/*===============================MAIN-SPECIALISTES========================*/
+/*======================MAIN-SPECIALISTES AND MEDECIN========================*/
 
 .marg
 {
@@ -156,6 +156,17 @@ main
     background-color: black;
     height: 10px;
     border: 3px inset rgb(192, 192, 192);
+}
+
+.p-medecin
+{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align:center;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px black;
 }
 
 /*===============================MAIN-HORAIRES============================*/
@@ -216,8 +227,10 @@ main
    font-weight: blod;
    font-size: 2rem;
    margin-bottom: 30px;
-   background-color: rgba(35,35,35,.3);
+   background-color: rgb(220, 220, 220,.4);
    width: 500px;
+   border: 2px solid black;
+   text-shadow: 1px 1px black;
 
 }
 
@@ -250,6 +263,7 @@ form input
 .map
 {
     width: 100%; height: 450px;
+    border: 3px solid silver;
 }
 
 /*================================MAIN-URGENCES===========================*/
