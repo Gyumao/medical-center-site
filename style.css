@@ -302,6 +302,13 @@ form input
     margin: 30px 20px;
 }
 
+.image-info
+{
+    margin: 30px 20px;
+    width: 600px;
+    height: 250px
+}
+
 /*=================================MAIN-APROPOS============================*/
 
 .table-honoraires
@@ -495,13 +502,21 @@ footer a
 
         .image-footer
         {
-            width: 200px;
-            height: 100px;
+            display: none;
         }
 
         .logo
         {
             margin: -40px 0px;
             padding-bottom: 30px;
+        }
+
+        .warning
+        {font-size: 3rem;}
+
+        .image-info
+        {
+            width: 350px;
+            height: 200px;
         }
     }
