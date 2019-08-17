@@ -22,7 +22,7 @@ table
      width: auto;
      height: auto;
      border: 3px solid black;
-     text-shadow: 1px 1px blac;
+     text-shadow: 1px 1px rgb(192, 192, 192);
      font-weight: bold;
  }
 
@@ -111,13 +111,29 @@ main
     width: 100%;
     height:500px;
     border-bottom: 5px solid black;
+    border-top: 5px solid black;
 }
 
 .h2-accueil
 {
+    background-color: #268cd6;
+}
+
+.h2-animation
+{
+    display: block;
     font-size: 2.5rem;
     text-shadow: 1px 1px black;
-    margin-top: 50px;
+    font-weight: bold;
+    animation: 20s linear 0s infinite reverse move-eye;
+	padding:0 5px;
+    text-align:left;
+    height: 50px;
+}
+
+@keyframes move-eye 
+{ 
+    from { margin-left:-80%; } to { margin-left:100%; }  
 }
 
 .p-accueil
@@ -237,7 +253,7 @@ main
 
 .selection
 {
-   font-weight: blod;
+   font-weight: bold;
    font-size: 2rem;
    margin-bottom: 30px;
    background-color: rgb(220, 220, 220,.4);
@@ -288,7 +304,7 @@ form input
     font-size: 4rem;
     text-align: center;
     border: 2px solid rgb(192, 192, 192);
-    width: 100%x;
+    width: 100%;
     background-color: black;
     text-shadow: 1px 1px rgb(100, 0, 0);
 }
@@ -519,6 +535,21 @@ footer a
         {
             margin: -40px 0px;
             padding-bottom: 30px;
+        }
+
+        /*====================================ACCUEIL-RESPONSIVE=======================*/
+
+        .h2-animation
+        {
+            display: block;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px black;
+            font-weight: bold;
+            animation: 20s linear 0s infinite reverse move-eye;
+            -webkit-animation: 20s linear 0s infinite reverse move-eye;
+	        padding:0 5px;
+            text-align:left;
+            height: 50px;
         }
 
         /*================================CONTACTEZ-NOUS-RESPONSIVE===================*/
