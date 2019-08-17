@@ -320,7 +320,7 @@ form input
 
 @keyframes move-eye-1 
 { 
-    from { margin-left:-80%; } to { margin-left:100%; }  
+    from { margin-left:-50%; } to { margin-left:100%; }  
 }
 
 .urgence
