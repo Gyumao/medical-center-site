@@ -99,7 +99,7 @@ header a
 
 main
 {
-    background: url('Images/fond.jpg') no-repeat;
+    background: url('Images/fond.1.jpg') no-repeat;
     width: 100%; height: 100%;
     background-size: cover;
     display: flex;
@@ -139,6 +139,7 @@ main
     justify-content: center;
     margin: 50px 0 20px 0;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .medecin
@@ -167,6 +168,7 @@ main
     background-color: black;
     height: 10px;
     border: 3px inset rgb(192, 192, 192);
+    border-radius: 5px;
 }
 
 .p-medecin
@@ -327,6 +329,7 @@ form input
     font-size: 2.2rem;
     font-weight: bold;
     text-decoration: underline black;
+    text-align: center;
 }
 
 .p-propos
@@ -386,7 +389,7 @@ footer a
     border: 3px inset rgb(192, 192, 192);
     float: left;
     margin: 1.1rem 0 0 1rem;
-    width: 400px;
+    width: 500px;
     height: 200px;
 }
 
@@ -394,6 +397,13 @@ footer a
 {
     text-align: center;
     margin-top: 1.1rem;
+}
+
+.p-footer
+{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
 }
 
 /*=================================RESPONCIVE=====================*/
@@ -545,7 +555,7 @@ footer a
 
         .image-footer
         {
-            display: none;
+         display: none;
         }
 
     }
