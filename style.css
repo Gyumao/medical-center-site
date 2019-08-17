@@ -302,11 +302,11 @@ form input
 {
     color: rgb(255,10,10); 
     font-size: 4rem;
-    text-align: center;
-    border: 2px solid rgb(192, 192, 192);
-    width: 100%;
-    background-color: black;
     text-shadow: 1px 1px rgb(100, 0, 0);
+    text-align:center;
+    background-color: black;
+    border: 2px solid rgb(192,192,192);
+
 }
 
 .urgence
@@ -546,12 +546,15 @@ footer a
             text-shadow: 1px 1px black;
             font-weight: bold;
             animation: 20s linear 0s infinite reverse move-eye;
-            -webkit-animation: 20s linear 0s infinite reverse move-eye;
 	        padding:0 5px;
             text-align:left;
             height: 50px;
         }
 
+        @keyframes move-eye 
+        { 
+            from { margin-left:-400%; } to { margin-left:110%; }  
+        }
         /*================================CONTACTEZ-NOUS-RESPONSIVE===================*/
 
         .h2-contact
