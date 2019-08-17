@@ -129,6 +129,7 @@ main
 	padding:0 5px;
     text-align:left;
     height: 50px;
+    overflow: hidden;
 }
 
 @keyframes move-eye 
@@ -298,15 +299,28 @@ form input
 
 /*================================MAIN-URGENCES===========================*/
 
-.warning
+.h2-urgence
+{
+    background-color: black;
+    border: 2px solid rgb(192,192,192);
+}
+
+.urgence-animation
 {
     color: rgb(255,10,10); 
     font-size: 4rem;
     text-shadow: 1px 1px rgb(100, 0, 0);
-    text-align:center;
-    background-color: black;
-    border: 2px solid rgb(192,192,192);
+    overflow: hidden;
+    font-weight: bold;
+    animation: 20s linear 0s infinite reverse move-eye-1;
+	padding:0 5px;
+    text-align:left;
+    height: 70px;
+}
 
+@keyframes move-eye-1 
+{ 
+    from { margin-left:-80%; } to { margin-left:100%; }  
 }
 
 .urgence
@@ -549,6 +563,7 @@ footer a
 	        padding:0 5px;
             text-align:left;
             height: 50px;
+            overflow: hidden;
         }
 
         @keyframes move-eye 
@@ -574,9 +589,16 @@ footer a
 
         /*==================================URGENCE-RESPONSIVE========================*/
 
-        .warning
+        .urgence-animation
         {
+            color: rgb(255,10,10); 
             font-size: 3rem;
+            text-align: center;
+            text-shadow: 1px 1px rgb(100, 0, 0);
+            overflow: hidden;
+            animation: none;
+            height: 130px;
+            padding-top:10px;
         }
 
         .image-info
