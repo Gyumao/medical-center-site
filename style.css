@@ -495,6 +495,7 @@ footer a
 
         .image-footer
         {
+            display: none;
             width: 100%;
             margin-left: -10px;
         }
