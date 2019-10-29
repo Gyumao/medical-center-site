@@ -1,33 +1,30 @@
 /*==========================GENERAL===============================*/
-*
-{
+* {
     padding: 0;
-    margin: 0;  
+    margin: 0;
 }
 
-body
-{
+body {
     font-family: 'Merriweather', Arial, Impact, Serif;
     background-color: black;
 }
 
-li{
+li {
     list-style: none;
 }
 
-table
- {
-     background-color: rgba(228, 228, 228, 0.4);
-     text-align: center;
-     width: auto;
-     height: auto;
-     border: 3px solid black;
-     text-shadow: 1px 1px rgb(192, 192, 192);
-     font-weight: bold;
- }
+table {
+    background-color: rgba(228, 228, 228, 0.4);
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    text-shadow: 1px 1px rgb(192, 192, 192);
+    font-weight: bold;
+}
 
-th,td
-{
+th,
+td {
     border: 3px solid black;
     font-size: 1.5rem;
     font-weight: bold;
@@ -36,109 +33,101 @@ th,td
 
 /*============================HEADER============================*/
 
-header
-{
+header {
     background: url('Images/banner4.jpg') no-repeat;
     background-size: cover;
     border-bottom: 7px solid black;
-    height:350px;
+    height: 350px;
 }
 
-header h1
-{
-    padding-top:  9rem;
+header h1 {
+    padding-top: 9rem;
     text-shadow: 1px 1px black;
 }
 
-.nav-top
-{
+.nav-top {
     float: right;
-    margin-top: 1.5rem; 
-    text-align: center; 
+    margin-top: 1.5rem;
+    text-align: center;
     background-color: black;
     border: 4px outset rgb(192, 192, 192);
     width: 100%;
 }
 
-header nav ul li
-{
+header nav ul li {
     background-color: black;
     font-weight: bold;
     padding: 1rem 5rem .9rem 5rem;
-    display: inline-block;  
+    display: inline-block;
 }
 
-header a
-{
+header a {
     color: rgb(220, 220, 220);
     font-size: 20px;
 }
 
-.logo
-{
+.logo {
     float: left;
     padding: 4rem 0 0 4rem;
 }
 
-.rouge
-{
-   color: #E74C3C;
+.rouge {
+    color: #E74C3C;
 }
 
-.bleu
-{
+.bleu {
     color: rgb(0, 39, 211);
 }
 
-.menu-burger 
-{
+.menu-burger {
     display: none;
 }
 
 /*==============================MAIN-ACCUEIL==============================*/
 
-main
-{
+main {
     background: url('Images/fond.1.jpg') no-repeat;
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
 }
 
-.main-image
-{
+.main-image {
     width: 100%;
-    height:500px;
+    height: 500px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
 }
 
-.h2-accueil
-{
+.h2-accueil {
     background-color: #268cd6;
 }
 
-.h2-animation
-{
+.h2-animation {
     display: block;
     font-size: 2.5rem;
     text-shadow: 1px 1px black;
     font-weight: bold;
     animation: 20s linear 0s infinite reverse move-eye;
-	padding:0 5px;
-    text-align:left;
+    padding: 0 5px;
+    text-align: left;
     height: 50px;
     overflow: hidden;
 }
 
-@keyframes move-eye 
-{ 
-    from { margin-left:-80%; } to { margin-left:100%; }  
+@keyframes move-eye {
+    from {
+        margin-left: -80%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
 }
 
-.p-accueil
-{
+.p-accueil {
     font-size: 1.7rem;
     display: flex;
     justify-content: center;
@@ -150,8 +139,7 @@ main
 
 /*======================MAIN-SPECIALISTES AND MEDECIN========================*/
 
-.marg
-{
+.marg {
     display: flex;
     justify-content: center;
     margin: 50px 0 20px 0;
@@ -159,16 +147,14 @@ main
     text-align: center;
 }
 
-.medecin
-{
+.medecin {
     display: flex;
     justify-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     border: 3px inset black;
 }
 
-.botton-contact
-{
+.botton-contact {
     display: flex;
     justify-content: center;
     margin: 50px auto;
@@ -180,36 +166,32 @@ main
     border-radius: 5px;
 }
 
-.line
-{
+.line {
     background-color: black;
     height: 10px;
     border: 3px inset rgb(192, 192, 192);
     border-radius: 5px;
 }
 
-.p-medecin
-{
+.p-medecin {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     margin-bottom: 50px;
-    text-shadow: 1px 1px silver; 
+    text-shadow: 1px 1px silver;
 }
 
 /*===============================MAIN-HORAIRES============================*/
 
-.table-horaires
-{
+.table-horaires {
     display: flex;
     justify-content: center;
-    margin:50px 0;
+    margin: 50px 0;
 }
 
-.h2-horaires
-{
+.h2-horaires {
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -218,8 +200,7 @@ main
     text-decoration: underline black;
 }
 
-.p-horaires
-{
+.p-horaires {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -231,8 +212,7 @@ main
 
 /*================================MAIN-CONTACT===========================*/
 
-.info-contact
-{
+.info-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,8 +222,7 @@ main
     font-weight: bold;
 }
 
-.h2-contact
-{
+.h2-contact {
     font-size: 3.5rem;
     color: rgb(245, 222, 179);
     text-shadow: 2px 2px black;
@@ -252,29 +231,26 @@ main
     font-weight: bold;
 }
 
-.selection
-{
-   font-weight: bold;
-   font-size: 2rem;
-   margin-bottom: 30px;
-   background-color: rgb(220, 220, 220,.4);
-   width: 500px;
-   border: 2px solid black;
-   text-shadow: 1px 1px black;
+.selection {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    background-color: rgb(220, 220, 220, .4);
+    width: 500px;
+    border: 2px solid black;
+    text-shadow: 1px 1px black;
 
 }
 
-.center
-{
+.center {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     text-align: center;
-    margin:25px 0;
+    margin: 25px 0;
 }
 
-textarea
-{
+textarea {
     width: 600px;
     height: 300px;
     text-align: center;
@@ -282,61 +258,59 @@ textarea
     padding-top: 100px;
 }
 
-form input
-{
+form input {
     width: 500px;
     height: 40px;
     text-align: center;
     font-size: 1.2rem;
 }
 
-.map
-{
-    width: 100%; 
+.map {
+    width: 100%;
     height: 450px;
     border: 3px solid rgb(192, 192, 192);
 }
 
 /*================================MAIN-URGENCES===========================*/
 
-.h2-urgence
-{
+.h2-urgence {
     background-color: black;
-    border: 2px solid rgb(192,192,192);
+    border: 2px solid rgb(192, 192, 192);
 }
 
-.urgence-animation
-{
-    color: rgb(255,10,10); 
+.urgence-animation {
+    color: rgb(255, 10, 10);
     font-size: 4rem;
     text-shadow: 1px 1px rgb(100, 0, 0);
     overflow: hidden;
     font-weight: bold;
     animation: 20s linear 0s infinite reverse move-eye-1;
-	padding:0 5px;
-    text-align:left;
+    padding: 0 5px;
+    text-align: left;
     height: 70px;
 }
 
-@keyframes move-eye-1 
-{ 
-    from { margin-left:-50%; } to { margin-left:100%; }  
+@keyframes move-eye-1 {
+    from {
+        margin-left: -50%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
 }
 
-.urgence
-{
+.urgence {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.image-urgence
-{
+.image-urgence {
     margin: 30px 20px;
 }
 
-.image-info
-{
+.image-info {
     margin: 30px 20px;
     width: 600px;
     height: 250px
@@ -344,15 +318,13 @@ form input
 
 /*=================================MAIN-APROPOS============================*/
 
-.table-honoraires
-{
+.table-honoraires {
     display: flex;
     justify-content: center;
     margin: 50px 0;
 }
 
-.h2-propos
-{
+.h2-propos {
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -362,8 +334,7 @@ form input
     text-align: center;
 }
 
-.p-propos
-{
+.p-propos {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -375,23 +346,20 @@ form input
 
 /*==================================FOOTER=================================*/
 
-footer
-{
+footer {
     height: 230px;
     background-color: black;
     border-top: 5px solid rgb(192, 192, 192);
 }
 
-footer h2
-{
+footer h2 {
     text-align: center;
     margin: 1.3em 0 0 0;
     text-shadow: 2px 2px black;
     font-size: 2rem;
 }
 
-footer nav
-{
+footer nav {
     float: right;
     text-align: center;
     margin-top: 1.3rem;
@@ -400,22 +368,19 @@ footer nav
     width: 100%;
 }
 
-footer nav ul li
-{
+footer nav ul li {
     background-color: black;
     font-weight: bold;
     padding: 0 5rem 0 5rem;
     display: inline-block;
 }
 
-footer a
-{
-    color: rgb(220, 220, 220); 
+footer a {
+    color: rgb(220, 220, 220);
     font-size: 20px;
 }
 
-.image-footer
-{
+.image-footer {
     border: 3px inset rgb(192, 192, 192);
     float: left;
     margin: 1.1rem 0 0 1rem;
@@ -423,14 +388,12 @@ footer a
     height: 200px;
 }
 
-.contact-footer
-{
+.contact-footer {
     text-align: center;
     margin-top: 1.1rem;
 }
 
-.p-footer
-{
+.p-footer {
     color: whitesmoke;
     text-align: center;
     padding-top: 30px;
@@ -438,185 +401,168 @@ footer a
 
 /*=================================RESPONCIVE=====================*/
 
-@media screen and (max-width: 800px) 
-    {
+@media screen and (max-width: 800px) {
 
-        body
-        {
-          margin: 0;
-          padding: 0;
-        }
-
-        /*===============================MENU-TOP-BURGER===================*/
-
-        .menu-burger
-        {
-          display: block;
-          position: relative;
-          left: 20px;
-          z-index: 1;
-        }
-        
-        .menu-burger input
-        {
-          display: block;
-          width: 50px;
-          height: 40px;
-          position: absolute;
-          cursor: pointer;
-          opacity: 0;
-          z-index: 2;
-        }
-        
-        .menu-burger span
-        {
-          display: block;
-          width: 50px;
-          height: 10px;
-          margin-bottom: 5px;
-          position: relative;
-          border: 1px solid whitesmoke;          
-          background: black;
-          border-radius: 3px;
-          z-index: 1;          
-          transform-origin: 4px 0px;          
-          transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                      opacity 0.60s ease;
-        }
-        
-        .menu-burger span:first-child
-        {
-          transform-origin: 0% 0%;
-        }
-
-        .menu-burger span:nth-last-child(2)
-        {
-          transform-origin: 0% 100%;
-        }
-
-        .menu-burger input:checked ~ span
-        {
-          opacity: 1;
-          transform: rotate(45deg) translate(-2px, -1px);
-          background: #232323;
-        }
-
-        .menu-burger input:checked ~ span:nth-last-child(3)
-        {
-          opacity: 0;
-          transform: rotate(0deg) scale(0.2, 0.2);
-        }
-
-        .menu-burger input:checked ~ span:nth-last-child(2)
-        {
-          transform: rotate(-45deg) translate(0, -1px);
-        }
-
-        .menu
-        {
-          position: absolute;
-          width: 200px;
-          margin: -100px 0 0 -50px;
-          padding: 50px;
-          padding-top: 125px;
-          background-color: rgba(0,0,0,.9);
-          list-style-type: none;
-          transform-origin: 0% 0%;
-          transform: translate(-100%, 0);
-          transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-        }
-
-        .menu li
-        {
-          padding: 10px 0;
-          font-size: 25px;
-        }
-
-        .menu-burger input:checked ~ ul
-        {
-          transform: none;
-        }
-
-        /*==================================HEADER-RESPONSIVE=========================*/
-
-        header h1
-        {
-            text-align: center;
-        }
-
-        .nav-top
-        {
-            display: none;
-        }
-
-        .logo
-        {
-            margin: -50px 0 ;
-            padding-bottom: 50px;
-        }
-
-        /*====================================ACCUEIL-RESPONSIVE=======================*/
-
-        .h2-animation
-        {
-            display: block;
-            font-size: 2.5rem;
-            text-shadow: 1px 1px black;
-            font-weight: bold;
-            animation: 20s linear 0s infinite reverse move-eye;
-	        padding:0 5px;
-            text-align:left;
-            height: 50px;
-            overflow: hidden;
-        }
-
-        @keyframes move-eye 
-        { 
-            from { margin-left:-400%; } to { margin-left:110%; }  
-        }
-        /*================================CONTACTEZ-NOUS-RESPONSIVE===================*/
-
-        .h2-contact
-        {
-            font-size: 3rem;
-        }
-
-        form input
-        {
-            width: 350px;
-        }
-
-        textarea
-        {
-            width: 350px;
-        }
-
-        /*==================================URGENCE-RESPONSIVE========================*/
-
-        .urgence-animation
-        {
-            color: rgb(255,10,10); 
-            font-size: 3rem;
-            text-align: center;
-            text-shadow: 1px 1px rgb(100, 0, 0);
-            overflow: hidden;
-            animation: none;
-            height: 130px;
-            padding-top:10px;
-        }
-
-        .image-info
-        {
-            width: 350px;
-            height: 200px;
-        }
-
-        /*==================================FOOTER-RESPONSIVE=========================*/
-
-        .image-footer
-        {
-         display: none;
-        }
-
+    body {
+        margin: 0;
+        padding: 0;
     }
+
+    /*===============================MENU-TOP-BURGER===================*/
+
+    .menu-burger {
+        display: block;
+        position: relative;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .menu-burger input {
+        display: block;
+        width: 50px;
+        height: 40px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+
+    .menu-burger span {
+        display: block;
+        width: 50px;
+        height: 10px;
+        margin-bottom: 5px;
+        position: relative;
+        border: 1px solid whitesmoke;
+        background: black;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            opacity 0.60s ease;
+    }
+
+    .menu-burger span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    .menu-burger span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    .menu-burger input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+
+    .menu-burger input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    .menu-burger input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    .menu {
+        position: absolute;
+        width: 200px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background-color: rgba(0, 0, 0, .9);
+        list-style-type: none;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+
+    .menu li {
+        padding: 10px 0;
+        font-size: 25px;
+    }
+
+    .menu-burger input:checked~ul {
+        transform: none;
+    }
+
+    /*==================================HEADER-RESPONSIVE=========================*/
+
+    header h1 {
+        text-align: center;
+    }
+
+    .nav-top {
+        display: none;
+    }
+
+    .logo {
+        margin: -50px 0;
+        padding-bottom: 50px;
+    }
+
+    /*====================================ACCUEIL-RESPONSIVE=======================*/
+
+    .h2-animation {
+        display: block;
+        font-size: 2.5rem;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+        animation: 20s linear 0s infinite reverse move-eye;
+        padding: 0 5px;
+        text-align: left;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    @keyframes move-eye {
+        from {
+            margin-left: -400%;
+        }
+
+        to {
+            margin-left: 110%;
+        }
+    }
+
+    /*================================CONTACTEZ-NOUS-RESPONSIVE===================*/
+
+    .h2-contact {
+        font-size: 3rem;
+    }
+
+    form input {
+        width: 350px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    /*==================================URGENCE-RESPONSIVE========================*/
+
+    .urgence-animation {
+        color: rgb(255, 10, 10);
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 1px 1px rgb(100, 0, 0);
+        overflow: hidden;
+        animation: none;
+        height: 130px;
+        padding-top: 10px;
+    }
+
+    .image-info {
+        width: 350px;
+        height: 200px;
+    }
+
+    /*==================================FOOTER-RESPONSIVE=========================*/
+
+    .image-footer {
+        display: none;
+    }
+
+}
